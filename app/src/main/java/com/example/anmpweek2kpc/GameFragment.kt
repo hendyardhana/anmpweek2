@@ -51,6 +51,7 @@ class GameFragment : Fragment() {
                 hasil = num1+num2
                 txtnum.text = "$num1 + $num2"
                 Toast.makeText(activity, "Score: $score", Toast.LENGTH_SHORT).show()
+                txtanswer.setText("")
             }
             else{
                 val action = GameFragmentDirections.actionResultFragment(score)
