@@ -25,6 +25,10 @@
         <action
             android:id="@+id/actionResultFragment"
             app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_gameFragment_to_mainFragment2"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/mainFragment" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
